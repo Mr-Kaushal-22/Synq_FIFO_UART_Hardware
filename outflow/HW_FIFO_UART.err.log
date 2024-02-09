@@ -1,0 +1,54 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 11:40:47
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'i_byte' is not declared (VERI-1128) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v:23)
+[EFX-0010 VERI-ERROR] 'r_read' is not declared (VERI-1128) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v:25)
+[EFX-0010 VERI-ERROR] module 'control_logic' is ignored due to previous errors (VERI-1072) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v:37)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 11:42:57
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'count[31]' is constantly driven from multiple places (VDB-1000) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:33)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:45)
+[EFX-0021 ERROR] Verific elaboration of module 'top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 11:44:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 12:45:52
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 17:59:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 18:20:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 18:39:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 18:47:30
+///////////////////////////////////
+

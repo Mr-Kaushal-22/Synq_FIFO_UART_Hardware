@@ -1,0 +1,81 @@
+#0 $dumpon
+$date today $end
+$timescale 1 ns $end
+$scope module top $end
+$var wire 1 0 Tx_Serial $end
+$var wire 1 1 Tx_Done $end
+$var wire 1 2 Tx_Active $end
+$var wire 1 3 rd $end
+$var wire 1 4 f_full $end
+$var wire 1 5 f_empty $end
+$var wire 8 6 wr_dt $end
+$var wire 8 7 rd_dt $end
+$var wire 1 8 uart_rx_inst/o_Rx_DV $end
+$var wire 8 9 uart_rx_inst/o_Rx_Byte $end
+$var wire 8 a uart_tx_inst/i_Tx_Byte $end
+$var wire 1 b uart_tx_inst/i_Tx_DV $end
+$var wire 1 c DV $end
+$var wire 1 d control_logic_inst/o_rd_en $end
+$var wire 8 e control_logic_inst/o_wr_Byte $end
+$var wire 1 f control_logic_inst/i_DV $end
+$var wire 8 10 control_logic_inst/i_Byte $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+10
+01
+02
+03
+04
+15
+b00000000 6
+b00000000 7
+08
+b00000001 9
+b00000000 a
+0b
+0c
+0d
+b00000000 e
+0f
+b00000001 10
+$end
+#251
+b00100001 9
+b00100001 10
+#338
+b01100001 9
+b01100001 10
+#512
+18
+1c
+1f
+#513
+b01100001 6
+08
+0c
+b01100001 e
+0f
+#514
+05
+b00000000 6
+b00000000 e
+#1023
+10
+01
+02
+03
+04
+05
+b00000000 6
+b00000000 7
+08
+b01100001 9
+b00000000 a
+0b
+0c
+0d
+b00000000 e
+0f
+b01100001 10

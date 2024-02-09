@@ -1,0 +1,35 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307 
+Date: Fri Feb  9 18:47:47 2024
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T120F324
+Top-level Entity Name: HW_FIFO_UART
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 2 / 1076 (0.19%)
+Outputs: 5 / 1566 (0.32%)
+Clocks: 1 / 16 (6.25%)
+Logic Elements: 243 / 112128 (0.22%)
+	LE: LUTs/Adders: 210 / 112128 (0.19%)
+	LE: Registers: 110 / 107520 (0.10%)
+Memory Blocks: 1 / 1056 (0.09%)
+Multipliers: 0 / 320 (0.00%)
+---------- Resource Summary (end) ----------
+
+
+---------- Memory Block Information (begin) ----------
+
++---------------------+------+--------------+---------------+--------------+--------------+--------------+---------------+--------------+--------------+
+|        NAME         | MODE | READ_WIDTH_A | WRITE_WIDTH_A | WRITE_MODE_A | OUTPUT_REG_A | READ_WIDTH_B | WRITE_WIDTH_B | WRITE_MODE_B | OUTPUT_REG_B |
++---------------------+------+--------------+---------------+--------------+--------------+--------------+---------------+--------------+--------------+
+| synq_fifo_inst/fifo | TDP  |      8       |       8       |  READ_FIRST  |    false     |      8       |       8       |  READ_FIRST  |    false     |
++---------------------+------+--------------+---------------+--------------+--------------+--------------+---------------+--------------+--------------+
+
+----------- Memory Block Information (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 2 seconds

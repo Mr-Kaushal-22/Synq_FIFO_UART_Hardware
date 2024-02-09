@@ -1,0 +1,112 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307 
+Compiled: Dec 15 2023.
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T120F324" ...
+
+***** Beginning stage routing graph generation ... *****
+Read ipin pattern from /home/kaushal/Downloads/efinity/2023.2/arch/./ipin_oph.xml
+Finished parsing ipin pattern file '/home/kaushal/Downloads/efinity/2023.2/arch/./ipin_oph.xdb'.
+Finished parsing switch_block file '/home/kaushal/Downloads/efinity/2023.2/arch/./sb_connectivity_subset.xdb'.
+BuildGraph process took 12.4509 seconds.
+	BuildGraph process took 12.06 seconds (approximately) in total CPU time.
+BuildGraph process virtual memory usage: begin = 1153.81 MB, end = 3027.25 MB, delta = 1873.44 MB
+BuildGraph process resident set memory usage: begin = 431.796 MB, end = 2305.59 MB, delta = 1873.79 MB
+	BuildGraph process peak resident set memory usage = 5498.48 MB
+check rr_graph process took 0.384575 seconds.
+	check rr_graph process took 0.39 seconds (approximately) in total CPU time.
+check rr_graph process virtual memory usage: begin = 3183.19 MB, end = 3209.26 MB, delta = 26.064 MB
+check rr_graph process resident set memory usage: begin = 2461.62 MB, end = 2487.73 MB, delta = 26.112 MB
+	check rr_graph process peak resident set memory usage = 5498.48 MB
+Generated 6653525 RR nodes and 25233999 RR edges
+This design has 0 global control net(s). See /home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/outflow/HW_FIFO_UART.route.rpt for details.
+Routing graph took 13.1474 seconds.
+	Routing graph took 12.73 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 1153.81 MB, end = 3053.3 MB, delta = 1899.5 MB
+Routing graph resident set memory usage: begin = 431.54 MB, end = 2331.94 MB, delta = 1900.4 MB
+	Routing graph peak resident set memory usage = 5498.48 MB
+***** Ending stage routing graph generation *****
+
+***** Beginning stage routing ... *****
+
+SDC file '/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/timing_constraints.sdc' parsed successfully.
+1 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+         1          502              7.415              0.185
+         2           59              10.72              0.144
+         3           15              11.09              0.118
+         4            0              11.09              0.107
+
+Successfully routed netlist after 4 routing iterations and 570887 heapops
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+
+Serial number (magic cookie) for the routing is: 1720577920
+Netlist fully routed.
+
+Successfully created FPGA route file '/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/outflow/HW_FIFO_UART.route'
+Routing took 1.21518 seconds.
+	Routing took 1.34 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 3053.3 MB, end = 3053.3 MB, delta = 0 MB
+Routing resident set memory usage: begin = 2331.94 MB, end = 2332 MB, delta = 0.06 MB
+	Routing peak resident set memory usage = 5498.48 MB
+***** Ending stage routing *****
+
+***** Beginning stage final timing analysis ... *****
+
+SDC file '/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/timing_constraints.sdc' parsed successfully.
+1 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+
+Maximum possible analyzed clocks frequency
+ Clock Name  Period (ns)  Frequency (MHz)     Edge
+   Clock        11.214        89.174         (R-R)
+
+Geomean max period: 11.214
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+     Clock            Clock           100.000           88.786           (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+     Clock            Clock            0.000            0.086            (R-R)
+
+Write Timing Report to "/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/outflow/HW_FIFO_UART.timing.rpt" ...
+final timing analysis took 0.0603688 seconds.
+	final timing analysis took 0.06 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 3053.3 MB, end = 3053.3 MB, delta = 0 MB
+final timing analysis resident set memory usage: begin = 2332 MB, end = 2332.28 MB, delta = 0.284 MB
+	final timing analysis peak resident set memory usage = 5498.48 MB
+***** Ending stage final timing analysis *****
+
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from '/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/outflow/HW_FIFO_UART.interface.csv'.
+Successfully processed interface constraints file "/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/outflow/HW_FIFO_UART.interface.csv".
+Finished writing bitstream file /home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_pnr/HW_FIFO_UART.lbf.
+Bitstream generation took 2.09036 seconds.
+	Bitstream generation took 1.99 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 3053.3 MB, end = 3101.54 MB, delta = 48.236 MB
+Bitstream generation resident set memory usage: begin = 2332.28 MB, end = 2381.13 MB, delta = 48.848 MB
+	Bitstream generation peak resident set memory usage = 5498.48 MB
+***** Ending stage bitstream generation *****
+
+The entire flow of EFX_PNR took 23.4614 seconds.
+	The entire flow of EFX_PNR took 24.14 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 173.12 MB, end = 2165.89 MB, delta = 1992.77 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 30.208 MB, end = 1445.48 MB, delta = 1415.27 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 5498.48 MB

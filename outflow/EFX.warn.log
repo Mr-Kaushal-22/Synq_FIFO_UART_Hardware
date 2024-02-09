@@ -1,0 +1,196 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 18:13:42
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe8' remains unconnected for this instance (VERI-1927) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:132)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 1 for port 'trigger_in' (VERI-1330) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:4407)
+[EFX-0011 VERI-WARNING] input port 'probe8[0]' remains unconnected for this instance (VDB-1053) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:104)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:5502)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:5503)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:5713)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:5713)
+[EFX-0200 WARNING] Removing redundant signal : din[22]. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:4605)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:4884)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:4885)
+[EFX-0266 WARNING] Module Instance 'genblk2.global_capture_inst' input pin tied to constant (trigger_in=0).
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:1038)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:1040)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:1041)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:1045)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:1056)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:289)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:290)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:292)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:297)
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_in=0).
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_out_ack=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:104)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:104)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:104)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:104)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe12[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:104)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe13[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:104)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe14[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:104)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe15[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:104)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe16[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:104)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe17[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:104)
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_DRCK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_RUNTEST is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_TMS is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 18:14:04
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : la0_clk~O. 
+[EFX-0200 WARNING] Removing redundant signal : bscan_TCK~O. 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 18:21:04
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe8' remains unconnected for this instance (VERI-1927) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:132)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 1 for port 'trigger_in' (VERI-1330) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:4407)
+[EFX-0011 VERI-WARNING] input port 'probe8[0]' remains unconnected for this instance (VDB-1053) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:104)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:5502)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:5503)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:5713)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:5713)
+[EFX-0200 WARNING] Removing redundant signal : din[22]. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:4605)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:4884)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:4885)
+[EFX-0266 WARNING] Module Instance 'genblk2.global_capture_inst' input pin tied to constant (trigger_in=0).
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:1038)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:1040)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:1041)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:1045)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:1056)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:289)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:290)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:292)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:297)
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_in=0).
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_out_ack=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:104)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:104)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:104)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:104)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe12[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:104)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe13[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:104)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe14[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:104)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe15[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:104)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe16[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:104)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe17[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:104)
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_DRCK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_RUNTEST is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_TMS is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 18:21:26
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : bscan_TCK~O. 
+[EFX-0200 WARNING] Removing redundant signal : la0_clk~O. 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 18:30:09
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe17' remains unconnected for this instance (VERI-1927) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:168)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 1 for port 'trigger_in' (VERI-1330) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:4443)
+[EFX-0011 VERI-WARNING] input port 'probe17[0]' remains unconnected for this instance (VDB-1053) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:131)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:5538)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:5539)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:5749)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:5749)
+[EFX-0200 WARNING] Removing redundant signal : din[59]. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:4641)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:4920)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:4921)
+[EFX-0266 WARNING] Module Instance 'genblk2.global_capture_inst' input pin tied to constant (trigger_in=0).
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:1074)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:1076)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:1077)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:1081)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:1092)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:325)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:326)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:328)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:333)
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_in=0).
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_out_ack=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe17[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:131)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe18[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:131)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe19[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:131)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe20[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:131)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe21[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:131)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe22[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:131)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe23[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:131)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe24[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:131)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe25[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:131)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe26[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:131)
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_DRCK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_RUNTEST is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_TMS is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 18:30:33
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : la0_clk~O. 
+[EFX-0200 WARNING] Removing redundant signal : bscan_TCK~O. 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 18:39:45
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe17' remains unconnected for this instance (VERI-1927) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:168)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 1 for port 'trigger_in' (VERI-1330) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:4443)
+[EFX-0011 VERI-WARNING] input port 'probe17[0]' remains unconnected for this instance (VDB-1053) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:131)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:5538)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:5539)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:5749)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:5749)
+[EFX-0200 WARNING] Removing redundant signal : din[59]. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:4641)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:4920)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:4921)
+[EFX-0266 WARNING] Module Instance 'genblk2.global_capture_inst' input pin tied to constant (trigger_in=0).
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:1074)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:1076)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:1077)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:1081)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:1092)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:325)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:326)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:328)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:333)
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_in=0).
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_out_ack=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe17[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:131)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe18[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:131)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe19[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:131)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe20[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:131)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe21[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:131)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe22[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:131)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe23[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:131)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe24[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:131)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe25[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:131)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe26[0]'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_dbg/debug_top.v:131)
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_DRCK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_RUNTEST is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_TMS is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 18:40:12
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : bscan_TCK~O. 
+[EFX-0200 WARNING] Removing redundant signal : la0_clk~O. 

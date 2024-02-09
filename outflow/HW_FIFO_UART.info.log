@@ -1,0 +1,881 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 11:40:47
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/kaushal/Downloads/efinity/2023.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:21)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:26)
+[EFX-0010 VERI-ERROR] 'i_byte' is not declared (VERI-1128) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v:23)
+[EFX-0010 VERI-ERROR] 'r_read' is not declared (VERI-1128) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v:25)
+[EFX-0010 VERI-ERROR] module 'control_logic' is ignored due to previous errors (VERI-1072) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v:37)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 11:42:57
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/kaushal/Downloads/efinity/2023.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:21)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:26)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IBUF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_OBUF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:16)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IO_BUF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:23)
+[EFX-0012 VERI-INFO] compiling module 'EFX_CLKOUT' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:33)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IREG' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:41)
+[EFX-0012 VERI-INFO] compiling module 'EFX_OREG' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:51)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOREG' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:60)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDIO' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:75)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDIO' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:87)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GPIO_V1' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:99)
+[EFX-0012 VERI-INFO] compiling module 'EFX_PLL_V1' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:118)
+[EFX-0012 VERI-INFO] compiling module 'EFX_OSC_V1' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:136)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:79)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:90)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:101)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:119)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:11)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:65)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:93)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:113)
+[EFX-0012 VERI-INFO] compiling module 'synq_fifo' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:9)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'fifo' (VERI-2571) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:21)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:30)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:41)
+[EFX-0010 VERI-ERROR] net 'count[31]' is constantly driven from multiple places (VDB-1000) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:33)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:45)
+[EFX-0012 VERI-INFO] module 'synq_fifo' remains a black box due to errors in its contents (VERI-1073) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:9)
+[EFX-0012 VERI-INFO] compiling module 'top' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/top.v:3)
+[EFX-0011 VERI-WARNING] module instantiation should have an instance name (VERI-1229) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/top.v:41)
+[EFX-0012 VERI-INFO] compiling module 'control_logic' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v:1)
+[EFX-0011 VERI-WARNING] clock signal 'i_Clock' cannot be used as a data signal (VERI-2334) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v:31)
+[EFX-0021 ERROR] Verific elaboration of module 'top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 11:44:54
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/kaushal/Downloads/efinity/2023.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:21)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:26)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IBUF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_OBUF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:16)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IO_BUF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:23)
+[EFX-0012 VERI-INFO] compiling module 'EFX_CLKOUT' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:33)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IREG' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:41)
+[EFX-0012 VERI-INFO] compiling module 'EFX_OREG' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:51)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOREG' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:60)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDIO' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:75)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDIO' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:87)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GPIO_V1' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:99)
+[EFX-0012 VERI-INFO] compiling module 'EFX_PLL_V1' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:118)
+[EFX-0012 VERI-INFO] compiling module 'EFX_OSC_V1' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:136)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:79)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:90)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:101)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:119)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:11)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:65)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:93)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:113)
+[EFX-0012 VERI-INFO] compiling module 'synq_fifo' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:9)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'fifo' (VERI-2571) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:21)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:31)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:39)
+[EFX-0012 VERI-INFO] compiling module 'top' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/top.v:3)
+[EFX-0011 VERI-WARNING] module instantiation should have an instance name (VERI-1229) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/top.v:41)
+[EFX-0012 VERI-INFO] compiling module 'control_logic' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v:1)
+[EFX-0011 VERI-WARNING] clock signal 'i_Clock' cannot be used as a data signal (VERI-2334) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v:31)
+[EFX-0008 WARNING] Top module not specified. 'top' is used as top module for the design.
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0256 WARNING] The primary output port 'Read' wire 'Read' is not driven.
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'fifo'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:21)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'Read'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/top.v:10)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 80408KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 80536KB)
+[EFX-0000 INFO] ... Mapping design "top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 80920KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 81048KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "synq_fifo" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "synq_fifo" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 81560KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "control_logic" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "control_logic" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 81560KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 60 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 81816KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 81944KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 82072KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 82072KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 82072KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'Clock' with 101 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 17 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 3s CPU user time : 5s CPU sys time : 0s MEM : 92076KB)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 5s CPU sys time : 0s MEM : 92716KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 139, ed: 442, lv: 4, pw: 356.61
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 6s CPU sys time : 0s MEM : 118752KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 6s CPU sys time : 0s MEM : 118752KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'Clock' with 100 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 3s CPU user time : 9s CPU sys time : 0s MEM : 118752KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 9s CPU sys time : 0s MEM : 118752KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	64
+[EFX-0000 INFO] EFX_LUT4        : 	139
+[EFX-0000 INFO] EFX_FF          : 	100
+[EFX-0000 INFO] EFX_DPRAM_5K    : 	1
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 12:45:52
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/kaushal/Downloads/efinity/2023.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:21)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:26)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IBUF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_OBUF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:16)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IO_BUF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:23)
+[EFX-0012 VERI-INFO] compiling module 'EFX_CLKOUT' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:33)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IREG' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:41)
+[EFX-0012 VERI-INFO] compiling module 'EFX_OREG' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:51)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOREG' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:60)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDIO' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:75)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDIO' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:87)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GPIO_V1' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:99)
+[EFX-0012 VERI-INFO] compiling module 'EFX_PLL_V1' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:118)
+[EFX-0012 VERI-INFO] compiling module 'EFX_OSC_V1' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:136)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:79)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:90)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:101)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:119)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:11)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:65)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:93)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:113)
+[EFX-0012 VERI-INFO] compiling module 'synq_fifo' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:9)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'fifo' (VERI-2571) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:21)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:31)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:39)
+[EFX-0012 VERI-INFO] compiling module 'top' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/top.v:3)
+[EFX-0012 VERI-INFO] compiling module 'control_logic' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v:1)
+[EFX-0011 VERI-WARNING] clock signal 'i_Clock' cannot be used as a data signal (VERI-2334) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v:31)
+[EFX-0008 WARNING] Top module not specified. 'top' is used as top module for the design.
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'fifo'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:21)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1315184KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1315184KB)
+[EFX-0000 INFO] ... Mapping design "top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1315184KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1315184KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "synq_fifo" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "synq_fifo" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1315184KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "control_logic" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "control_logic" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1315184KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 60 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1315184KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1315184KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1315184KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1315184KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1315184KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'Clock' with 101 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 17 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 3s CPU user time : 5s CPU sys time : 0s MEM : 1315184KB)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 5s CPU sys time : 0s MEM : 1315184KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 139, ed: 442, lv: 4, pw: 357.57
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s CPU user time : 6s CPU sys time : 0s MEM : 1315184KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 6s CPU sys time : 0s MEM : 1315184KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'Clock' with 100 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 3s CPU user time : 9s CPU sys time : 0s MEM : 1315184KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 9s CPU sys time : 0s MEM : 1315184KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	64
+[EFX-0000 INFO] EFX_LUT4        : 	139
+[EFX-0000 INFO] EFX_FF          : 	100
+[EFX-0000 INFO] EFX_DPRAM_5K    : 	1
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 17:59:44
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/kaushal/Downloads/efinity/2023.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:21)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:26)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IBUF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_OBUF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:16)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IO_BUF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:23)
+[EFX-0012 VERI-INFO] compiling module 'EFX_CLKOUT' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:33)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IREG' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:41)
+[EFX-0012 VERI-INFO] compiling module 'EFX_OREG' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:51)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOREG' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:60)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDIO' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:75)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDIO' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:87)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GPIO_V1' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:99)
+[EFX-0012 VERI-INFO] compiling module 'EFX_PLL_V1' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:118)
+[EFX-0012 VERI-INFO] compiling module 'EFX_OSC_V1' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:136)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:79)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:90)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:101)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:119)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:11)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:65)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:93)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:113)
+[EFX-0012 VERI-INFO] compiling module 'synq_fifo' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:9)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'fifo' (VERI-2571) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:21)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:31)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:39)
+[EFX-0012 VERI-INFO] compiling module 'top' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/top.v:3)
+[EFX-0012 VERI-INFO] compiling module 'control_logic' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v:1)
+[EFX-0011 VERI-WARNING] clock signal 'i_Clock' cannot be used as a data signal (VERI-2334) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v:31)
+[EFX-0008 WARNING] Top module not specified. 'top' is used as top module for the design.
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'fifo'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:21)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1197720KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1197720KB)
+[EFX-0000 INFO] ... Mapping design "top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1197720KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1197720KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "synq_fifo" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "synq_fifo" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1197720KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "control_logic" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "control_logic" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1197720KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 60 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1197720KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1197720KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1197720KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1197720KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1197720KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'Clock' with 102 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 19 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 3s CPU user time : 5s CPU sys time : 0s MEM : 1197720KB)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 5s CPU sys time : 0s MEM : 1197720KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 142, ed: 443, lv: 4, pw: 359.93
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 5s CPU sys time : 0s MEM : 1197720KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 5s CPU sys time : 0s MEM : 1197720KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'Clock' with 101 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 4s CPU user time : 9s CPU sys time : 0s MEM : 1197720KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 9s CPU sys time : 0s MEM : 1197720KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	64
+[EFX-0000 INFO] EFX_LUT4        : 	142
+[EFX-0000 INFO] EFX_FF          : 	101
+[EFX-0000 INFO] EFX_DPRAM_5K    : 	1
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 18:20:55
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/kaushal/Downloads/efinity/2023.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:21)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:26)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IBUF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_OBUF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:16)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IO_BUF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:23)
+[EFX-0012 VERI-INFO] compiling module 'EFX_CLKOUT' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:33)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IREG' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:41)
+[EFX-0012 VERI-INFO] compiling module 'EFX_OREG' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:51)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOREG' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:60)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDIO' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:75)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDIO' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:87)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GPIO_V1' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:99)
+[EFX-0012 VERI-INFO] compiling module 'EFX_PLL_V1' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:118)
+[EFX-0012 VERI-INFO] compiling module 'EFX_OSC_V1' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:136)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:79)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:90)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:101)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:119)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:11)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:65)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:93)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:113)
+[EFX-0012 VERI-INFO] compiling module 'synq_fifo' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:9)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'fifo' (VERI-2571) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:21)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:31)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:39)
+[EFX-0012 VERI-INFO] compiling module 'top' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/top.v:3)
+[EFX-0012 VERI-INFO] compiling module 'control_logic' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v:1)
+[EFX-0011 VERI-WARNING] clock signal 'i_Clock' cannot be used as a data signal (VERI-2334) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v:31)
+[EFX-0008 WARNING] Top module not specified. 'top' is used as top module for the design.
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'fifo'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:21)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 3585220KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 3585220KB)
+[EFX-0000 INFO] ... Mapping design "top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 3585220KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 3585220KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "synq_fifo" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "synq_fifo" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 3585220KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "control_logic" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "control_logic" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 3585220KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 60 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 3585220KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 3585220KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 3585220KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 3585220KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 3585220KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'Clock' with 102 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 19 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 3s CPU user time : 5s CPU sys time : 0s MEM : 3585220KB)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 5s CPU sys time : 0s MEM : 3585220KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 142, ed: 443, lv: 4, pw: 359.93
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 6s CPU sys time : 0s MEM : 3585220KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 6s CPU sys time : 0s MEM : 3585220KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'Clock' with 101 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 3s CPU user time : 9s CPU sys time : 0s MEM : 3585220KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 9s CPU sys time : 0s MEM : 3585220KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	64
+[EFX-0000 INFO] EFX_LUT4        : 	142
+[EFX-0000 INFO] EFX_FF          : 	101
+[EFX-0000 INFO] EFX_DPRAM_5K    : 	1
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 18:39:35
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/kaushal/Downloads/efinity/2023.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:21)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:26)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IBUF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_OBUF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:16)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IO_BUF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:23)
+[EFX-0012 VERI-INFO] compiling module 'EFX_CLKOUT' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:33)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IREG' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:41)
+[EFX-0012 VERI-INFO] compiling module 'EFX_OREG' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:51)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOREG' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:60)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDIO' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:75)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDIO' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:87)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GPIO_V1' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:99)
+[EFX-0012 VERI-INFO] compiling module 'EFX_PLL_V1' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:118)
+[EFX-0012 VERI-INFO] compiling module 'EFX_OSC_V1' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:136)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:79)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:90)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:101)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:119)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:11)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:65)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:93)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:113)
+[EFX-0012 VERI-INFO] compiling module 'synq_fifo' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:9)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'fifo' (VERI-2571) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:21)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:31)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:39)
+[EFX-0012 VERI-INFO] compiling module 'top' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/top.v:3)
+[EFX-0012 VERI-INFO] compiling module 'control_logic' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v:1)
+[EFX-0008 WARNING] Top module not specified. 'top' is used as top module for the design.
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'fifo'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:21)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 4643816KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 4643816KB)
+[EFX-0000 INFO] ... Mapping design "top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 4643816KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 4643816KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "synq_fifo" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "synq_fifo" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 4643816KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "control_logic" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "control_logic" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 4643816KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 60 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 4643816KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 4643816KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 4643816KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 4643816KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 4643816KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'Clock' with 110 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 19 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 3s CPU user time : 5s CPU sys time : 0s MEM : 4643816KB)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 6s CPU sys time : 0s MEM : 4643816KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 142, ed: 445, lv: 4, pw: 365.38
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s CPU user time : 6s CPU sys time : 0s MEM : 4643816KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 6s CPU sys time : 0s MEM : 4643816KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'Clock' with 109 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 3s CPU user time : 9s CPU sys time : 0s MEM : 4643816KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 9s CPU sys time : 0s MEM : 4643816KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	64
+[EFX-0000 INFO] EFX_LUT4        : 	142
+[EFX-0000 INFO] EFX_FF          : 	109
+[EFX-0000 INFO] EFX_DPRAM_5K    : 	1
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 18:47:30
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/kaushal/Downloads/efinity/2023.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:21)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:26)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IBUF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_OBUF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:16)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IO_BUF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:23)
+[EFX-0012 VERI-INFO] compiling module 'EFX_CLKOUT' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:33)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IREG' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:41)
+[EFX-0012 VERI-INFO] compiling module 'EFX_OREG' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:51)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOREG' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:60)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDIO' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:75)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDIO' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:87)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GPIO_V1' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:99)
+[EFX-0012 VERI-INFO] compiling module 'EFX_PLL_V1' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:118)
+[EFX-0012 VERI-INFO] compiling module 'EFX_OSC_V1' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:136)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:79)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:90)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:101)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:119)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:11)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:65)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:93)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:113)
+[EFX-0012 VERI-INFO] compiling module 'synq_fifo' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:9)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'fifo' (VERI-2571) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:21)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:31)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:39)
+[EFX-0012 VERI-INFO] compiling module 'top' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/top.v:3)
+[EFX-0012 VERI-INFO] compiling module 'control_logic' (VERI-1018) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v:1)
+[EFX-0008 WARNING] Top module not specified. 'top' is used as top module for the design.
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/kaushal/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'fifo'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:21)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 5498484KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 5498484KB)
+[EFX-0000 INFO] ... Mapping design "top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 5498484KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 5498484KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "synq_fifo" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "synq_fifo" end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 5498484KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "control_logic" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "control_logic" end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 5498484KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 60 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 5498484KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 5498484KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 5498484KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 5498484KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 5498484KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'Clock' with 111 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 19 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 3s CPU user time : 6s CPU sys time : 0s MEM : 5498484KB)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 6s CPU sys time : 0s MEM : 5498484KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 144, ed: 463, lv: 4, pw: 374.13
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 6s CPU sys time : 0s MEM : 5498484KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 6s CPU sys time : 0s MEM : 5498484KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'Clock' with 110 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 3s CPU user time : 9s CPU sys time : 0s MEM : 5498484KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 9s CPU sys time : 0s MEM : 5498484KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	64
+[EFX-0000 INFO] EFX_LUT4        : 	144
+[EFX-0000 INFO] EFX_FF          : 	110
+[EFX-0000 INFO] EFX_DPRAM_5K    : 	1
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 

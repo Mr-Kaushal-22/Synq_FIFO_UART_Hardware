@@ -1,0 +1,213 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 11:40:47
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:21)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:26)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 11:42:57
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:21)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:26)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:79)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:90)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:101)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:119)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:65)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:93)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:113)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:30)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:41)
+[EFX-0011 VERI-WARNING] module instantiation should have an instance name (VERI-1229) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/top.v:41)
+[EFX-0011 VERI-WARNING] clock signal 'i_Clock' cannot be used as a data signal (VERI-2334) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v:31)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 11:44:54
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:21)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:26)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:79)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:90)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:101)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:119)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:65)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:93)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:113)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:31)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:39)
+[EFX-0011 VERI-WARNING] module instantiation should have an instance name (VERI-1229) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/top.v:41)
+[EFX-0011 VERI-WARNING] clock signal 'i_Clock' cannot be used as a data signal (VERI-2334) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v:31)
+[EFX-0008 WARNING] Top module not specified. 'top' is used as top module for the design.
+[EFX-0256 WARNING] The primary output port 'Read' wire 'Read' is not driven.
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'Read'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/top.v:10)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 12:45:52
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:21)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:26)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:79)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:90)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:101)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:119)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:65)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:93)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:113)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:31)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:39)
+[EFX-0011 VERI-WARNING] clock signal 'i_Clock' cannot be used as a data signal (VERI-2334) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v:31)
+[EFX-0008 WARNING] Top module not specified. 'top' is used as top module for the design.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 17:59:44
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:21)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:26)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:79)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:90)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:101)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:119)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:65)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:93)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:113)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:31)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:39)
+[EFX-0011 VERI-WARNING] clock signal 'i_Clock' cannot be used as a data signal (VERI-2334) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v:31)
+[EFX-0008 WARNING] Top module not specified. 'top' is used as top module for the design.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 18:20:55
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:21)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:26)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:79)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:90)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:101)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:119)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:65)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:93)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:113)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:31)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:39)
+[EFX-0011 VERI-WARNING] clock signal 'i_Clock' cannot be used as a data signal (VERI-2334) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v:31)
+[EFX-0008 WARNING] Top module not specified. 'top' is used as top module for the design.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 18:39:35
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:21)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:26)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:79)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:90)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:101)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:119)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:65)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:93)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:113)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:31)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:39)
+[EFX-0008 WARNING] Top module not specified. 'top' is used as top module for the design.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 09, 2024 18:47:30
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:21)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:22)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:23)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:24)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:25)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:26)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:79)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:90)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:101)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v:119)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:65)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:93)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v:113)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:31)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:39)
+[EFX-0008 WARNING] Top module not specified. 'top' is used as top module for the design.

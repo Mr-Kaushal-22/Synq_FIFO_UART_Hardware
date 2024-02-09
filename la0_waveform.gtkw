@@ -1,0 +1,28 @@
+[dumpfile] "/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/la0_waveform.vcd"
+[dumpfile_mtime] "Fri Feb 09 13:12:32 2024"
+[dumpfile_size] 1066
+[savefile] "/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/la0_waveform.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*0.000000 c 512 1536 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[signals_width] 126
+[sst_expanded] 1
+@22
+top.Tx_Serial
+top.Tx_Done
+top.Tx_Active
+top.rd
+top.f_full
+top.f_empty
+top.wr_dt[7:0]
+top.rd_dt[7:0]
+top.\uart_rx_inst/o_Rx_DV
+top.\uart_rx_inst/o_Rx_Byte[7:0]
+top.\uart_tx_inst/i_Tx_Byte[7:0]
+top.\uart_tx_inst/i_Tx_DV
+top.DV
+top.\control_logic_inst/o_rd_en
+top.\control_logic_inst/o_wr_Byte[7:0]
+top.\control_logic_inst/i_DV
+top.\control_logic_inst/i_Byte[7:0]

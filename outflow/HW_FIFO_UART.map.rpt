@@ -1,0 +1,114 @@
+Efinity Synthesis report for project HW_FIFO_UART
+Version: 2023.2.307
+Generated at: Feb 09, 2024 18:47:30
+Copyright (C) 2013 - 2023  All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+Top-level Entity Name : top
+
+### ### File List (begin) ### ### ###
+/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_rx.v
+/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/uart_tx.v
+/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v
+/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/top.v
+/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/control_logic.v
+### ### File List (end) ### ### ###
+
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'fifo'. (/home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/synq_fifo.v:21)
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 20
+Total number of FFs with enable signals: 94
+CE signal <ceg_net48>, number of controlling flip flops: 8
+CE signal <ceg_net193>, number of controlling flip flops: 1
+CE signal <uart_rx_inst/n449>, number of controlling flip flops: 1
+CE signal <ceg_net180>, number of controlling flip flops: 3
+CE signal <uart_rx_inst/n434>, number of controlling flip flops: 1
+CE signal <uart_rx_inst/n436>, number of controlling flip flops: 1
+CE signal <uart_rx_inst/n438>, number of controlling flip flops: 1
+CE signal <uart_rx_inst/n440>, number of controlling flip flops: 1
+CE signal <uart_rx_inst/n442>, number of controlling flip flops: 1
+CE signal <uart_rx_inst/n444>, number of controlling flip flops: 1
+CE signal <uart_rx_inst/n446>, number of controlling flip flops: 1
+CE signal <uart_tx_inst/r_SM_Main[2]>, number of controlling flip flops: 8
+CE signal <ceg_net195>, number of controlling flip flops: 1
+CE signal <ceg_net191>, number of controlling flip flops: 3
+CE signal <ceg_net189>, number of controlling flip flops: 1
+CE signal <uart_tx_inst/n426>, number of controlling flip flops: 8
+CE signal <ceg_net125>, number of controlling flip flops: 32
+CE signal <synq_fifo_inst/n90>, number of controlling flip flops: 6
+CE signal <synq_fifo_inst/n6>, number of controlling flip flops: 5
+CE signal <control_logic_inst/equal_5/n15>, number of controlling flip flops: 10
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 6
+Total number of FFs with set/reset signals: 17
+SR signal <uart_rx_inst/n390>, number of controlling flip flops: 1
+SR signal <uart_rx_inst/r_SM_Main[2]>, number of controlling flip flops: 2
+SR signal <uart_tx_inst/r_SM_Main[2]>, number of controlling flip flops: 2
+SR signal <uart_tx_inst/n408>, number of controlling flip flops: 1
+SR signal <f_empty>, number of controlling flip flops: 1
+SR signal <DV>, number of controlling flip flops: 10
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                      FFs        ADDs        LUTs      RAMs DSP/MULTs
+-----------------------------------         ---        ----        ----      ---- ---------
+top:top                                  110(0)       64(0)      144(0)      1(0)      0(0)
+ +uart_rx_inst:uart_rx                   26(26)        0(0)      42(42)      0(0)      0(0)
+ +uart_tx_inst:uart_tx                   24(24)        0(0)      32(32)      0(0)      0(0)
+ +synq_fifo_inst:synq_fifo               42(42)      64(64)      59(59)      1(1)      0(0)
+ +control_logic_inst:control_logic       18(18)        0(0)      11(11)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+ Clock     Flip-Flops   Memory Ports    Multipliers
+ -----     ----------   ------------    -----------
+ Clock            110              2              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T120F324
+project : HW_FIFO_UART
+project-xml : /home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/HW_FIFO_UART.xml
+root : top
+I,include : /home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART
+output-dir : /home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/outflow
+work-dir : /home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/work_syn
+write-efx-verilog : /home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/outflow/HW_FIFO_UART.map.v
+binary-db : /home/kaushal/Vicharak/Sample_Projects/HW_FIFO_UART/outflow/HW_FIFO_UART.vdb
+insert-ios : 0
+max-carry-cascade : 640
+max_mult : -1
+max_ram : -1
+mode : speed
+veri_options : verilog_mode=verilog_2k,vhdl_mode=vhdl_2008
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	2
+OUTPUT PORTS    : 	5
+
+EFX_ADD         : 	64
+EFX_LUT4        : 	144
+   1-2  Inputs  : 	23
+   3    Inputs  : 	67
+   4    Inputs  : 	54
+EFX_FF          : 	110
+EFX_DPRAM_5K    : 	1
+EFX_GBUFCE      : 	1
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 6s
+Elapsed synthesis time : 6s

@@ -1,0 +1,12 @@
+sep=\t
+Module Resource Usage Distribution Estimates
+Generated at: Feb 09, 2024 18:47:30
+
+Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module	         FFs	        ADDs	        LUTs	      RAMs	 DSP/MULTs
+top:top                            	     110(0)	      64(0)	     144(0)	     1(0)	     0(0)	
+ +uart_rx_inst:uart_rx             	     26(26)	       0(0)	     42(42)	     0(0)	     0(0)	
+ +uart_tx_inst:uart_tx             	     24(24)	       0(0)	     32(32)	     0(0)	     0(0)	
+ +synq_fifo_inst:synq_fifo         	     42(42)	     64(64)	     59(59)	     1(1)	     0(0)	
+ +control_logic_inst:control_logic 	     18(18)	       0(0)	     11(11)	     0(0)	     0(0)	
