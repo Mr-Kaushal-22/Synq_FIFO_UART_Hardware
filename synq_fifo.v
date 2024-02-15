@@ -40,14 +40,15 @@ module synq_fifo #(parameter data_width = 8, depth = 32)
             count <= count - 1'b1;
             fifo[rd_ptr] <= 0;
         end
-        
+        else 
+            r_rd_data <= 0;
         if(f_empty)
         begin
             r_rd_data <= 0;
         end
     end
     
-    assign rd_data =(rd_en)? r_rd_data:0;
+    assign rd_data = r_rd_data;
     
     // assigning flags
     assign f_full = (count == depth);
