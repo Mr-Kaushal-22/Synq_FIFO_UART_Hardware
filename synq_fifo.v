@@ -24,28 +24,30 @@ module synq_fifo #(parameter data_width = 8, depth = 32)
     
     always @(posedge clk)
     begin
-        // for write data to FIFO
-        if(wr_en && !f_full)
+        if(wr_en && !f_full && rd_en && !f_empty)
+        begin
+            fifo[wr_ptr] <= wr_data;
+            wr_ptr <= wr_ptr+1;
+            count <= count;
+            r_rd_data <= fifo[rd_ptr];
+            rd_ptr <= rd_ptr+1;
+            fifo[rd_ptr] <= 0;
+        end
+        else if(wr_en && !f_full)
         begin
             fifo[wr_ptr] <= wr_data;
             wr_ptr <= wr_ptr+1;
             count <= count + 1'b1;
         end
-    
-        // for read data from FIFO
-        if(rd_en && !f_empty)
+        else if(rd_en && !f_empty)
         begin
             r_rd_data <= fifo[rd_ptr];
             rd_ptr <= rd_ptr+1;
             count <= count - 1'b1;
             fifo[rd_ptr] <= 0;
         end
-        else 
+        else
             r_rd_data <= 0;
-        if(f_empty)
-        begin
-            r_rd_data <= 0;
-        end
     end
     
     assign rd_data = r_rd_data;
